@@ -36,13 +36,13 @@ const IMG = {
 };
 
 const COLOR_IMGS: Record<string, string> = {
-  Red: "/assets/red_saree_1783520892018.png",
-  Green: "/assets/green_saree_1783520904771.png",
-  Blue: "/assets/blue_saree_1783520914278.png",
-  Pink: "/assets/pink_saree_1783521101071.png",
-  Yellow: "/assets/yellow_saree_1783521112666.png",
-  Purple: "/assets/purple_saree_1783521124549.png",
-  Gold: "/assets/gold_saree_1783521135344.png",
+  Red: `${import.meta.env.BASE_URL}assets/red_saree_1783520892018.png`,
+  Green: `${import.meta.env.BASE_URL}assets/green_saree_1783520904771.png`,
+  Blue: `${import.meta.env.BASE_URL}assets/blue_saree_1783520914278.png`,
+  Pink: `${import.meta.env.BASE_URL}assets/pink_saree_1783521101071.png`,
+  Yellow: `${import.meta.env.BASE_URL}assets/yellow_saree_1783521112666.png`,
+  Purple: `${import.meta.env.BASE_URL}assets/purple_saree_1783521124549.png`,
+  Gold: `${import.meta.env.BASE_URL}assets/gold_saree_1783521135344.png`,
 };
 
 // ─── Product Factory ──────────────────────────────────────────────────────────
@@ -174,7 +174,7 @@ const BANNERS = [
     subtitle: "Heirloom pure silk sarees woven by the master craftsmen of Kanchipuram — timeless, resplendent, yours.",
     cta: "Explore Bridal",
     filter: "Wedding",
-    img: "/assets/gold_saree_1783521135344.png",
+    img: `${import.meta.env.BASE_URL}assets/gold_saree_1783521135344.png`,
     textSide: "left" as const,
   },
   {
@@ -184,7 +184,7 @@ const BANNERS = [
     subtitle: "Contemporary Banarasi and Chanderi silks in vibrant blues, greens and ivories — curated for the modern woman.",
     cta: "Shop Silk Sarees",
     filter: "Silk Sarees",
-    img: "/assets/blue_saree_1783520914278.png",
+    img: `${import.meta.env.BASE_URL}assets/blue_saree_1783520914278.png`,
     textSide: "right" as const,
   },
   {
@@ -194,7 +194,7 @@ const BANNERS = [
     subtitle: "Vivid pure silk sarees in auspicious reds and golds — crafted to make every occasion unforgettable.",
     cta: "View Collection",
     filter: "Festive",
-    img: "/assets/red_saree_1783520892018.png",
+    img: `${import.meta.env.BASE_URL}assets/red_saree_1783520892018.png`,
     textSide: "left" as const,
   },
   {
@@ -204,7 +204,7 @@ const BANNERS = [
     subtitle: "Fresh drapes in georgette, organza & printed cotton — effortlessly elegant for the season.",
     cta: "Shop New Arrivals",
     filter: "New Arrivals",
-    img: "/assets/green_saree_1783520904771.png",
+    img: `${import.meta.env.BASE_URL}assets/green_saree_1783520904771.png`,
     textSide: "right" as const,
   },
 ];
